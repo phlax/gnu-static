@@ -1,0 +1,22 @@
+# gnu-static -- pinned upstream tarball versions
+#
+# Format (tab-separated, one tool per row, comments and blanks ignored):
+#
+#   <tool>  <version>  <sha256-of-tarball-xz>
+#
+# Tarball URL is derived as:
+#   https://ftp.gnu.org/gnu/<tool>/<tool>-<version>.tar.xz
+#
+# All SHA256s below were verified against ftp.gnu.org on 2026-06-11.
+# Bump a row, run the workflow, and CI will refuse to build if the
+# downloaded tarball does not match the SHA you put here.
+
+# tool		version		sha256
+coreutils	9.11		394024eda0a5955217ceda9cd1201e65dc8fa3aa29c2951135a49521d57c3cc3
+findutils	4.10.0		1387e0b67ff247d2abde998f90dfbf70c1491391a59ddfecb8ae698789f0a4f5
+grep		3.12		2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9
+sed		4.10		b8e72182b2ec96a3574e2998c47b7aaa64cc20ce000d8e9ac313cc07cecf28c7
+gawk		5.4.0		3dd430f0cd3b4428c6c3f6afc021b9cd3c1f8c93f7a688dc268ca428a90b4ac1
+diffutils	3.12		7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd
+tar		1.35		4d62ff37342ec7aed748535323930c7cf94acf71c3591882b26a7ea50f3edc16
+gzip		1.14		01a7b881bd220bfdf615f97b8718f80bdfd3f6add385b993dcf6efd14e8c0ac6
