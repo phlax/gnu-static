@@ -1,0 +1,8 @@
+# local artifacts produced by build/build-one.sh
+/out/
+/artifacts/
+
+# editor / OS noise
+.DS_Store
+*.swp
+*.swo
